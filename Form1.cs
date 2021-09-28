@@ -43,11 +43,6 @@ namespace Lifegame
             Squares.zahyou();
             Squares.setting();
 
-            //Rectangle r = this.ClientRectangle;
-            
-            // Invalidate();
-            //MessageBox.Show("はじめ");
-       
         }
 
         
@@ -190,7 +185,7 @@ namespace Lifegame
         //画面上で一度クリックしたあとにAltキーを押してください
         public void FormClicked(object sender, EventArgs e)
             {
-                MessageBox.Show("おわるよ");
+                MessageBox.Show("おわります");
                 Application.Exit();
             }
 
