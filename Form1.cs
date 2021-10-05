@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -185,7 +185,7 @@ namespace Lifegame
         //画面上で一度クリックしたあとにAltキーを押してください
         public void FormClicked(object sender, EventArgs e)
             {
-                MessageBox.Show("おわります");
+                MessageBox.Show("終了する");
                 Application.Exit();
             }
 
